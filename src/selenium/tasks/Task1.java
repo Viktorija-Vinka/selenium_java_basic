@@ -5,8 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import static org.junit.Assert.assertEquals;
 import java.io.File;
+
+
 
 public class Task1 {
     WebDriver driver;

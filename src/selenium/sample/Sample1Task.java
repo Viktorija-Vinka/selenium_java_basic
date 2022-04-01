@@ -18,5 +18,13 @@ public class Sample1Task {
 //         get title of page
 //         get URL of current page
 //         close browser
+
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\Vika\\Desktop\\My_Bootcamp_folder\\TABootcampJava2022\\selenium_java_basic\\lib\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://kristinek.github.io/site/index2.html");
+        System.out.println("Title: " + driver.getTitle());
+        System.out.println("URL + " + driver.getCurrentUrl());
+        Thread.sleep(5000);
+        driver.quit();
     }
 }
